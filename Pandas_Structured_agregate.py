@@ -21,3 +21,6 @@ print(pop_4.head(10))
 
 pop_4.rename ( columns = { pop_4.columns[1] : '특기', pop_4.columns[2] : '연세'} , inplace=True)    #불러오느 컬럼은 0부터 시작,
 print(pop_4.head(10))
+
+pop_5 = pop_4.values 
+
