@@ -2,9 +2,8 @@
 from matplotlib import pyplot as plt , font_manager
 import numpy as np
 import math
-import pandas as pd
-
-
+import pandas as pd    
+   
 #한글 폰트 사용 하기 위해 설정
 #윈도 10에 있는 기본 폰트 파일을 사용하도록 설정
 import matplotlib.font_manager as fm 
